@@ -12,9 +12,10 @@ if you want to fully terminate the line in the file.
 """
 
 
-def main():
-    pass
+def read(filename):
+    with open(filename, 'r', encoding='UTF-8') as file:
+        print(file.read())
 
 
 if __name__ == "__main__":
-    main()
+    read('myfile.txt')
