@@ -4,4 +4,4 @@ def write(filename, text):
 
 
 if __name__ == "__main__":
-    write('myfile.txt', "Hello file world!\n")
+    write('myfile.txt', "Hello, file world!\n")
